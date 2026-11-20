@@ -34,6 +34,25 @@ Three models were trained and evaluated: Logistic Regression, Decision Tree, and
 - The **Random Forest** model achieved the best performance with an **Accuracy of 91%** and a **Precision of 68%**.
 - *Note:* Due to the highly imbalanced dataset (88.3% "No", 11.7% "Yes"), the Accuracy metric is misleading. The model's Recall for the "Yes" class was 39%, meaning it successfully identified 39% of the actual subscribers.
 
+📊 Power BI Dashboard (Bonus)
+To make the insights interactive, a 3-page Power BI dashboard was created based on the cleaned Python dataset.
+
+### Dashboard Preview
+
+**Page 1: Campaign Overview**
+*KPIs (Total Clients, Subscriptions, Conversion Rate) and the Call Volume vs. Subscription Rate by Month.*
+<img width="1486" height="800" alt="Screenshot 2026-11-20 112708" src="https://github.com/user-attachments/assets/bf537591-25f3-4bf2-be1e-212df1de6225" />
+
+
+**Page 2: Customer Insights**
+*Who subscribes? Analysis by Age, Job, Education, Balance, and Loan status.*
+<img width="1477" height="806" alt="Screenshot 2026-11-20 112721" src="https://github.com/user-attachments/assets/0328cfb0-3081-4128-976f-7108bd71f62d" />
+
+**Page 3: Campaign Insights**
+*Business recommendations based on the data, comparing Call Duration for Subscribers vs. Non-Subscribers.*
+<img width="1497" height="806" alt="Screenshot 2026-11-20 112750" src="https://github.com/user-attachments/assets/56d396c5-25d9-42b1-b1b1-36c7ecb8317a" />
+
+
 ## 💼 Business Recommendations
 Based on the analysis, the bank should implement the following strategies:
 1. **Target "Golden Profiles":** Prioritize clients who are students, retirees, or have a high bank balance (>60k€), with no loans.
